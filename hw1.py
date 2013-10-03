@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Name: Sean Lesch
+# Evergreen Login: lessea24
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 1
@@ -18,7 +18,18 @@ import math                     # makes the math.sqrt function available
 
 print "Problem 1 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+a = 1
+b = -5.86
+c = 8.5408
+
+
+x = (-b + math.sqrt( b ** 2 - 4 * a * c)) // 2 * a
+print str(x)
+
+x = (-b - math.sqrt( b ** 2 - 4 * a * c)) // 2 * a
+print str(x)
+
+
 
 
 ###
@@ -27,7 +38,11 @@ print "Problem 1 solution follows:"
 
 print "Problem 2 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+import hw1_test
+
+boolean_list = (hw1_test.a, hw1_test.b, hw1_test.c, hw1_test.d, hw1_test.e, hw1_test.f)
+
+print (boolean_list)
 
 
 ###
@@ -36,7 +51,7 @@ print "Problem 2 solution follows:"
 
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+
 
 
 ###
