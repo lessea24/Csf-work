@@ -54,8 +54,11 @@ print hw1_test.f
 
 print "Problem 3 solution follows:"
 
-value = ((a and b) or not c and not (d or e or f)
+print hw1_test.a and hw1_test.b or not hw1_test.c and not (hw1_test.e or hw1_test.e or hw1_test.f)
+    
 
+    
+#((a and b) or (not c) and not (d or e or f)) 
 
 
 
@@ -63,4 +66,4 @@ value = ((a and b) or not c and not (d or e or f)
 ### Collaboration
 ###
 
-# ... List your collaborators here, as a comment (on a line starting with "#").
+
