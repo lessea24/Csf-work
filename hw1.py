@@ -40,9 +40,12 @@ print "Problem 2 solution follows:"
 
 import hw1_test
 
-boolean_list = (hw1_test.a, hw1_test.b, hw1_test.c, hw1_test.d, hw1_test.e, hw1_test.f)
-
-print (boolean_list)
+print hw1_test.a
+print hw1_test.b
+print hw1_test.c
+print hw1_test.d
+print hw1_test.e
+print hw1_test.f
 
 
 ###
@@ -50,6 +53,8 @@ print (boolean_list)
 ###
 
 print "Problem 3 solution follows:"
+
+value = ((a and b) or not c and not (d or e or f)
 
 
 
