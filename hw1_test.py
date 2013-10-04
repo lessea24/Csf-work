@@ -1,8 +1,8 @@
 # Test file for hw1.py
 
-a = False
-b = False
+a = True
+b = True
 c = True
-d = False
-e = False
+d = True
+e = True
 f = True
