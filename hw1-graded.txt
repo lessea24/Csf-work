@@ -1,0 +1,7 @@
+Grader Name: Zach Linton
+Login: linzac03
+
+3/3
+
+clean layout
+may want to watch the // operator when dividing

@@ -23,7 +23,7 @@ b = -5.86
 c = 8.5408
 
 
-x = (-b + math.sqrt( b ** 2 - 4 * a * c)) // 2 * a
+x = (-b + math.sqrt( b ** 2 - 4 * a * c)) // 2 * a ##should be (2 * a)
 print str(x)
 
 x = (-b - math.sqrt( b ** 2 - 4 * a * c)) // 2 * a
