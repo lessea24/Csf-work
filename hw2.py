@@ -33,7 +33,16 @@ print x
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 2 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+denom = 2.0
+i = 0
+for i in range (9):
+    print "1/", denom
+    solution = 1 / denom
+    print solution,
+    i = i + 1
+    denom = denom + 1.0
+
+
 
 
 ###
@@ -42,6 +51,7 @@ print "Problem 2 solution follows:"
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 3 solution follows:"
+
 
 # ... write your code and comments here (and remove this line)
 
